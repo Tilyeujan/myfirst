@@ -2,14 +2,7 @@
     "name": "ng2-playground",
     "version": "0.0.1",
     "license": "MIT",
-    "scripts": {
-        "ng": "ng",
-        "start": "node server.js",
-        "build": "ng build",
-        "test": "ng test",
-        "lint": "ng lint",
-        "e2e": "ng e2e"
-    },
+    "main": "server.js",
     "private": true,
     "dependencies": {
         "@angular/animations": "^4.2.4",
