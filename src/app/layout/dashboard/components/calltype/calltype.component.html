@@ -1,0 +1,86 @@
+<div class="row" style="padding-top: 5px;">
+    <div class="col-lg-9 col-md-8 col-sm-12">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white bg-primary">
+                    <div class="card-header bg-primary">Ангилал - 1</div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <div class="div-scroll">
+                                <a *ngFor="let type of callTypes" href="javascript:void(0)"
+                                   class="list-group-item list-group-item-action"
+                                   (click)="getCallType2(type.id)">{{type.text}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white bg-success">
+                    <div class="card-header bg-success">Ангилал - 2</div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <div class="div-scroll">
+                                <a *ngFor="let type of callTypes2"
+                                   href="javascript:void(0)"
+                                   class="list-group-item list-group-item-action"
+                                   (click)="getCallType3(type.id)">{{type.text}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white bg-info">
+                    <div class="card-header bg-info">Ангилал - 3</div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <div class="div-scroll">
+                                <a *ngFor="let type of callTypes3"
+                                   href="javascript:void(0)"
+                                   class="list-group-item list-group-item-action"
+                                   (click)="getCallType4(type.id)">{{type.text}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-white bg-inverse">
+                    <div class="card-header bg-inverse">Ангилал - 4</div>
+                    <div class="card-body">
+                        <div class="list-group">
+                            <div class="div-scroll">
+                                <a *ngFor="let type of callTypes4"
+                                   href="javascript:void(0)"
+                                   class="list-group-item list-group-item-action">{{type.text}}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="padding: 10px; height: 286px; overflow-y: auto">
+            <div class="card-body">
+                <h4 class="card-title">Хэрэглээний зээл</h4>
+                <ul>
+                    <li>Тийзний зээл </li>
+                    <li>ТЭТГЭВРИЙН ЗЭЭЛ</li>
+                    <li>ОЮУТНЫ ХӨГЖЛИЙН ЗЭЭЛ</li>
+                    <li>ӨРХИЙН ЗЭЭЛ</li>
+                    <li>ХАДГАЛАМЖ БАРЬЦААЛСАН ЗЭЭЛ</li>
+                    <li>ХЭРЭГЛЭЭНИЙ ЗЭЭЛ</li>
+                    <li>АВТОМАШИНЫ ЗЭЭЛ</li>
+                    <li>ЦАЛИНГИЙН ЗЭЭЛ</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Дэлгэрэнгүй</a>
+            </div>
+        </div>
+    </div>
+</div>
